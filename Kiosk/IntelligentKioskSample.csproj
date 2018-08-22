@@ -180,13 +180,6 @@
     <Compile Include="Views\BingVisualSearch.xaml.cs">
       <DependentUpon>BingVisualSearch.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Views\CustomVision\CustomVisionExplorer.xaml.cs">
-      <DependentUpon>CustomVisionExplorer.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="Views\CustomVision\CustomVisionServiceHelper.cs" />
-    <Compile Include="Views\CustomVision\CustomVisionSetup.xaml.cs">
-      <DependentUpon>CustomVisionSetup.xaml</DependentUpon>
-    </Compile>
     <Compile Include="Views\DemoLauncherPage.xaml.cs">
       <DependentUpon>DemoLauncherPage.xaml</DependentUpon>
     </Compile>
@@ -295,8 +288,6 @@
     <Content Include="Assets\squaretile-sdk-44.targetsize-256.png" />
     <Content Include="Assets\squaretile-sdk-44.targetsize-32.png" />
     <Content Include="Assets\squaretile-sdk-44.targetsize-48.png" />
-    <Content Include="Assets\squaretile-sdk.png" />
-    <Content Include="Assets\squaretile-sdk-44.png" />
     <Content Include="Assets\squaretile-sdk.scale-100.png" />
     <Content Include="Assets\squaretile-sdk.scale-125.png" />
     <Content Include="Assets\squaretile-sdk.scale-150.png" />
@@ -418,14 +409,6 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Include="Views\BingVisualSearch.xaml">
-      <Generator>MSBuild:Compile</Generator>
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Include="Views\CustomVision\CustomVisionExplorer.xaml">
-      <Generator>MSBuild:Compile</Generator>
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Include="Views\CustomVision\CustomVisionSetup.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
