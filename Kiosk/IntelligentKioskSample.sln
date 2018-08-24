@@ -1,13 +1,19 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2042
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IntelligentKioskSample", "IntelligentKioskSample.csproj", "{B08D337A-AF9F-4705-B8C1-C7F07FACD8C5}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServiceHelpers", "ServiceHelpers\ServiceHelpers.csproj", "{5D9320AF-A9E4-48E3-89BC-9F7F0954B298}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KioskRuntimeComponent", "KioskRuntimeComponent\KioskRuntimeComponent.csproj", "{FC5A0250-B742-40A8-82CA-BEC2DF66982F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{A68DE7C2-03DE-4DE8-9539-CD84B7C4F1E5}"
+	ProjectSection(SolutionItems) = preProject
+		Recommendations.txt = Recommendations.txt
+		ServicesConfig.txt = ServicesConfig.txt
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -110,5 +116,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2271BC04-8072-467B-B558-BB9750375059}
 	EndGlobalSection
 EndGlobal

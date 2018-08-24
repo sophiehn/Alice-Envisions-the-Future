@@ -52,5 +52,6 @@ namespace IntelligentKioskSample.Views
         {
             this.Frame.Navigate(((KioskExperience)e.ClickedItem).PageType);
         }
+      
     }
 }

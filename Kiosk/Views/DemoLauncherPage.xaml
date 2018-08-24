@@ -19,6 +19,7 @@
         <ctl:PageHeader x:Name="pageHeader">
             <ctl:PageHeader.HeaderContent>
                 <TextBlock x:Name="title" Style="{ThemeResource PageTitleTextBlockStyle}" Text="Demos"/>
+                
             </ctl:PageHeader.HeaderContent>
         </ctl:PageHeader>
 
