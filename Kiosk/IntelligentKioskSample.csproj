@@ -23,10 +23,13 @@
     <AppxAutoIncrementPackageRevision>True</AppxAutoIncrementPackageRevision>
     <AppxBundle>Always</AppxBundle>
     <AppxBundlePlatforms>x86|x64|arm</AppxBundlePlatforms>
-    <PackageCertificateThumbprint>AFA97E8E34493A24325844C55BC66D56D9F3595C</PackageCertificateThumbprint>
+    <PackageCertificateThumbprint>A7B15939E9A40CCEA3C155A8869D3121060DFB7E</PackageCertificateThumbprint>
     <PackageCertificateKeyFile>IntelligentKioskSample_TemporaryKey.pfx</PackageCertificateKeyFile>
     <ApplicationInsightsResourceId />
     <RuntimeIdentifiers>win10-arm;win10-arm-aot;win10-x86;win10-x86-aot;win10-x64;win10-x64-aot</RuntimeIdentifiers>
+    <GenerateAppInstallerFile>False</GenerateAppInstallerFile>
+    <AppInstallerUpdateFrequency>1</AppInstallerUpdateFrequency>
+    <AppInstallerCheckForUpdateFrequency>OnApplicationRun</AppInstallerCheckForUpdateFrequency>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|ARM'">
     <DebugSymbols>true</DebugSymbols>
@@ -248,10 +251,15 @@
     <Content Include="Assets\female.png" />
     <Content Include="Assets\GreetingKiosk.JPG" />
     <Content Include="Assets\ImageCollectionInsights.JPG" />
+    <Content Include="Assets\LargeTile.scale-100.jpg" />
     <Content Include="Assets\LargeTile.scale-100.png" />
+    <Content Include="Assets\LargeTile.scale-125.jpg" />
     <Content Include="Assets\LargeTile.scale-125.png" />
+    <Content Include="Assets\LargeTile.scale-150.jpg" />
     <Content Include="Assets\LargeTile.scale-150.png" />
+    <Content Include="Assets\LargeTile.scale-200.jpg" />
     <Content Include="Assets\LargeTile.scale-200.png" />
+    <Content Include="Assets\LargeTile.scale-400.jpg" />
     <Content Include="Assets\LargeTile.scale-400.png" />
     <Content Include="Assets\male_blue.png" />
     <Content Include="Assets\EmotionRecognition.PNG" />
@@ -299,10 +307,15 @@
     <Content Include="Assets\StoreLogo.scale-200.png" />
     <Content Include="Assets\StoreLogo.scale-400.png" />
     <Content Include="Assets\VisionAPI.jpg" />
+    <Content Include="Assets\WideTile.scale-100.jpg" />
     <Content Include="Assets\WideTile.scale-100.png" />
+    <Content Include="Assets\WideTile.scale-125.jpg" />
     <Content Include="Assets\WideTile.scale-125.png" />
+    <Content Include="Assets\WideTile.scale-150.jpg" />
     <Content Include="Assets\WideTile.scale-150.png" />
+    <Content Include="Assets\WideTile.scale-200.jpg" />
     <Content Include="Assets\WideTile.scale-200.png" />
+    <Content Include="Assets\WideTile.scale-400.jpg" />
     <Content Include="Assets\WideTile.scale-400.png" />
     <Content Include="Properties\Default.rd.xml">
       <SubType>Designer</SubType>
